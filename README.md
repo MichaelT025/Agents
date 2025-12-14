@@ -7,11 +7,12 @@ The goal is to keep agent prompts versioned, easy to reuse across projects, and 
 ## Contents
 
 - `Sentinel.md` — system prompt for the `Sentinel` agent.
+- `TheProfessor.md` — teaching-first agent for explanations, understanding, and long-term retention.
 
 ## How to use
 
 - **Copy/paste**
-  - Open the agent file (for example `Sentinel.md`) and copy its contents into the “system prompt” / “instructions” field of your OpenCode / Codex CLI / IDE agent configuration.
+  - Open the agent file (for example `Sentinel.md`) and copy its contents into the “system prompt” / “instructions” field of your OpenCode / ClaudeCode / Cursor Agents configuration.
 - **Reference from a config**
   - If your tooling supports reading prompts from a file path, point it at the corresponding `*.md` file in this repo.
 
