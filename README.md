@@ -6,8 +6,10 @@ The goal is to keep agent prompts versioned, easy to reuse across projects, and 
 
 ## Contents
 
-- `Sentinel.md` — system prompt for the `Sentinel` agent.
+- `Sentinel.md` — A high-reliability, general-purpose assistant that is a jack of all trades.
 - `TheProfessor.md` — teaching-first agent for explanations, understanding, and long-term retention.
+- `ProductionTeam/TheArchitect.md` — architecture and systems design agent.
+- `ProductionTeam/TheDirector.md` — planning-first orchestrator for a multi-agent software team.
 
 ## How to use
 
@@ -20,6 +22,9 @@ The goal is to keep agent prompts versioned, easy to reuse across projects, and 
 
 - `README.md` — this overview.
 - `*.md` — one file per agent prompt.
+- `ProductionTeam/` — contains specialized agents for team-based workflows.
+  - `plans/` — planning documents for team operations.
+  - `templates/` — reusable templates for agent prompts.
 
 ## Conventions
 
